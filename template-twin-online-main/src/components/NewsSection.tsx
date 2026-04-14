@@ -27,14 +27,14 @@ const newsItems = [
 
 const NewsSection = () => {
   return (
-    <section id="projects" className="py-24 bg-background">
+    <section id="projects" className="py-16 md:py-24 bg-background">
       <div className="container">
         <ScrollReveal>
           <span className="section-label">News & Insights</span>
           <h2 className="section-heading mt-4 mb-12">Stay Informed with NTS Group</h2>
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {newsItems.map((item, i) => (
             <ScrollReveal key={i} delay={i * 150}>
               <a

@@ -5,9 +5,9 @@ import story2 from "@/assets/story-2.jpg";
 
 const StorySection = () => {
   return (
-    <section id="story" className="py-24 bg-background">
+    <section id="story" className="py-16 md:py-24 bg-background">
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
             <ScrollReveal>
               <span className="section-label">Story & Legacy</span>
@@ -32,7 +32,7 @@ const StorySection = () => {
             </ScrollReveal>
           </div>
           <ScrollReveal delay={300}>
-            <div className="flex gap-4 h-[400px] lg:h-[500px]">
+            <div className="flex gap-3 h-[280px] md:h-[400px] lg:h-[500px]">
               <div className="flex-1 rounded-2xl overflow-hidden">
                 <img
                   src={story1}
@@ -43,7 +43,7 @@ const StorySection = () => {
                   height={1000}
                 />
               </div>
-              <div className="flex-1 rounded-2xl overflow-hidden mt-12">
+              <div className="flex-1 rounded-2xl overflow-hidden mt-8 md:mt-12">
                 <img
                   src={story2}
                   alt="NTS Group pipeline project"

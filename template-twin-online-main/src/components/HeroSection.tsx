@@ -28,24 +28,24 @@ const HeroSection = () => {
         </svg>
       </div>
 
-      <div className="relative container pt-32 pb-20">
+      <div className="relative container pt-24 md:pt-32 pb-16 md:pb-20">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4 md:mb-6">
             Engineering Excellence,{" "}
             <br />
             Shaping Futures.
           </h1>
-          <p className="text-lg text-primary-foreground/80 mb-8 max-w-lg leading-relaxed">
-            Our projects stand as enduring symbols of quality and innovation. 
-            We connect today's ambitions with tomorrow's possibilities through 
+          <p className="text-base md:text-lg text-primary-foreground/80 mb-6 md:mb-8 max-w-lg leading-relaxed">
+            Our projects stand as enduring symbols of quality and innovation.
+            We connect today's ambitions with tomorrow's possibilities through
             world-class engineering and construction.
           </p>
           <a
             href="#projects"
-            className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full font-medium hover:opacity-90 transition-opacity group"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 md:px-8 py-3 md:py-4 rounded-full font-medium hover:opacity-90 transition-opacity group text-sm md:text-base"
           >
             Learn More
-            <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+            <ChevronRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
       </div>

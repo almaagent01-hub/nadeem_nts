@@ -110,7 +110,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="NTS Group of Companies"
-              className="h-[120px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              className="h-14 md:h-[120px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </a>
 

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-section-dark text-section-dark-foreground py-16">
       <div className="container">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12">
           <div>
             <div className="mb-4">
               <img src={logo} alt="NTS Group of Companies" className="h-16 w-auto object-contain" />
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-section-dark-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-section-dark-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-center md:text-left">
           <p className="text-sm text-section-dark-foreground/40">
             © 2026 NTS Group of Companies. All rights reserved.
           </p>

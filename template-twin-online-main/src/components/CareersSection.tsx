@@ -4,9 +4,9 @@ import careersBg from "@/assets/careers-bg.jpg";
 
 const CareersSection = () => {
   return (
-    <section id="careers" className="py-24 bg-secondary">
+    <section id="careers" className="py-16 md:py-24 bg-secondary">
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div>
             <ScrollReveal>
               <span className="section-label">Careers</span>

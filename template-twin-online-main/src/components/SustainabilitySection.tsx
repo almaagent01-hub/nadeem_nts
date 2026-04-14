@@ -4,7 +4,7 @@ import sustainabilityBg from "@/assets/sustainability-bg.jpg";
 
 const SustainabilitySection = () => {
   return (
-    <section id="sustainability" className="relative py-24 overflow-hidden">
+    <section id="sustainability" className="relative py-16 md:py-24 overflow-hidden">
       <img
         src={sustainabilityBg}
         alt="Renewable energy project"

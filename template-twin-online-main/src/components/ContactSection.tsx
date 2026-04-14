@@ -15,7 +15,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-background">
+    <section id="contact" className="py-16 md:py-24 bg-background">
       <div className="container">
         {/* Header */}
         <div className="text-center mb-16">
@@ -26,7 +26,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
           {/* Contact Info */}
           <div className="space-y-6">
             <div className="flex items-start gap-4 p-5 rounded-2xl border border-border hover:border-primary/30 transition-colors">
