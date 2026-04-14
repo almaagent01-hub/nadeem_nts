@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
         ref={(el) => { if (el) el.playbackRate = 2; }}
       >
-        <source src="/src/assets/hero-bg.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dnoxzfkyd/video/upload/v1776201124/hero-bg_gzvzb3.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 bg-foreground/75" />
 
