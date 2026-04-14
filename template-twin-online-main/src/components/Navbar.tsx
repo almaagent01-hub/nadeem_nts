@@ -104,7 +104,7 @@ const Navbar = () => {
             : ""
         }`}
       >
-        <div className="container flex items-center justify-between h-20">
+        <div className="container flex items-center justify-between h-14">
           {/* Logo */}
           <a href="#" className="flex items-center group relative z-10">
             <img
@@ -180,17 +180,20 @@ const Navbar = () => {
             className="lg:hidden relative w-10 h-10 flex items-center justify-center rounded-full transition-colors duration-300 text-foreground"
           >
             <div className="relative w-5 h-4 flex flex-col justify-between">
-              <span
-                className={`block h-0.5 rounded-full transition-all duration-300 origin-center bg-foreground ${mobileOpen ? "rotate-45 translate-y-[7px]" : ""}`}
-              />
-              <span
-                className={`block h-0.5 rounded-full transition-all duration-300 bg-foreground ${mobileOpen ? "opacity-0 scale-x-0" : ""}`}
-              />
-              <span
-                className={`block h-0.5 rounded-full transition-all duration-300 origin-center bg-foreground ${mobileOpen ? "-rotate-45 -translate-y-[7px]" : ""}`}
-              />
+              <span className={`block h-0.5 rounded-full transition-all duration-300 origin-center bg-foreground ${mobileOpen ? "rotate-45 translate-y-[7px]" : ""}`} />
+              <span className={`block h-0.5 rounded-full transition-all duration-300 bg-foreground ${mobileOpen ? "opacity-0 scale-x-0" : ""}`} />
+              <span className={`block h-0.5 rounded-full transition-all duration-300 origin-center bg-foreground ${mobileOpen ? "-rotate-45 -translate-y-[7px]" : ""}`} />
             </div>
           </button>
+
+          {/* Decorative circle menu icon */}
+          <div className="lg:hidden w-11 h-11 rounded-full border-2 border-gray-300 flex items-center justify-center ml-1 cursor-default">
+            <div className="flex flex-col gap-1">
+              <span className="block w-4 h-0.5 bg-primary rounded-full" />
+              <span className="block w-4 h-0.5 bg-primary rounded-full" />
+              <span className="block w-2.5 h-0.5 bg-primary rounded-full" />
+            </div>
+          </div>
         </div>
 
         {/* Search bar overlay */}

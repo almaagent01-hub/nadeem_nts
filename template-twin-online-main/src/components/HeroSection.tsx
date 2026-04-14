@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* ── MOBILE LAYOUT ── */}
       <section className="md:hidden">
         {/* Image / Video block */}
-        <div className="relative h-[55vw] min-h-[220px] overflow-hidden">
+        <div className="relative h-[70vw] min-h-[300px] overflow-hidden">
           <video
             autoPlay
             loop
